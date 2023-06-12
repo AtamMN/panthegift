@@ -1,0 +1,4 @@
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  background-color: black;
+}
