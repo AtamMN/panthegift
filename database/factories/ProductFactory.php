@@ -22,7 +22,7 @@ class ProductFactory extends Factory
                         ->map(fn($p) => "<p>$p</p>")
                         ->implode(""),
             'category_id' => $this->faker->numberBetween(1, 3),
-            'price' => $this->faker->numerify('##,#00')
+            'price' => $this->faker->numerify('###00')
         ];
     }
 }

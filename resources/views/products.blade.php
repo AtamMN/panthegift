@@ -14,7 +14,7 @@
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="https://source.unsplash.com/1200x400?{{ $products[0]->category->name }}" alt="First slide">
                     <div class="carousel-caption d-none d-md-block" style="max-height:50%; background-color: rgba(0, 0, 0, 0.7)">
-                        <h5>{{ $products[0]->title }} <small><a href="/categories/{{ $products[0]->category->slug }}"></a> {{ $products[0]->category->name }}</small></h5>
+                        <h5>{{ $products[0]->title }} <a href="/products?category={{ $products[0]->category->slug }}"><small> {{ $products[0]->category->name }}</small></a></h5>
                         <p><b>Rated: {{ $products[0]->rating->score }}/5</b> - {!! $products[0]->excerpt !!}</p>
                     </div>
                 </div>
