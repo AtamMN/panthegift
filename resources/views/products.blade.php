@@ -133,7 +133,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
                 <a href="
-                https://api.whatsapp.com/send?phone=62818811075&text=*Konfirmasi%20Order%3A*%0A*Produk%3A%20*%20{{ $product->title }}%0A*Jumlah%3A%20*%202%0A*Total%20Harga%3A%20_Rp%20{{ $product->price }}_*%0A
+                https://api.whatsapp.com/send?phone=6283192679651&text=*Konfirmasi%20Order%3A*%0A*Produk%3A%20*%20{{ $product->title }}%0A*Jumlah%3A%20*%202%0A*Total%20Harga%3A%20_Rp%20{{ $product->price }}_*%0A
                 " type="button" class="btn btn-primary">Order</a>
             </div>
         </div>

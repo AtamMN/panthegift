@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\Transaction;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Illuminate\Support\Str;
@@ -18,10 +19,18 @@ class DashboardProductController extends Controller
      */
     public function index()
     {
-        return view('dashboard.index',[
-            'products'=>Product::latest()->paginate(5),
-            'categories'=>Category::all()
-        ]);
+        if(auth()->user()->username == 'atammn'){
+            return view('dashboard.index',[
+                'products'=>Product::latest()->paginate(5),
+                'categories'=>Category::all()
+            ]);
+        }
+        else{
+            return view('dashboard.userview',[
+                'transaction'=>Transaction::latest()->paginate(5),
+                'categories'=>Category::all()
+            ]);
+        }
     }
 
     /**

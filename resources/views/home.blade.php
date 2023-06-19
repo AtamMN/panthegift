@@ -24,23 +24,23 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="image/bunga1.png" alt="First slide" height="500px" width="250px">
+                <img class="d-block w-100" src="https://cf.shopee.co.id/file/1231751c431138205f438d50634b7b70" alt="First slide" height="500px" width="250px">
                 <div class="carousel-caption d-none d-md-block" style="max-height:50%; background-color: rgba(0, 0, 0, 0.7)">
-                    <h5>Bucket<small><a href=""></a></small></h5>
+                    <h5>Baloon<small><a href=""></a></small></h5>
 
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="image/bunga2.png" alt="First slide" height="500px" width="250px">
+                <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmexJNZp1mHbuCl_EId85bvwOVtqc9OrqvgQ&usqp=CAU" alt="First slide" height="500px" width="250px">
                 <div class="carousel-caption d-none d-md-block" style="max-height:50%; background-color: rgba(0, 0, 0, 0.7)">
                     <h5>Trophy<small><a href=""></a></small></h5>
 
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="image/bunga3.png" alt="First slide" height="500px" width="250px">
+                <img class="d-block w-100" src="https://o-cdf.sirclocdn.com/unsafe/o-cdn-cas.sirclocdn.com/parenting/images/buket-jajanan.width-800.format-webp.webp" alt="First slide" height="500px" width="250px">
                 <div class="carousel-caption d-none d-md-block" style="max-height:50%; background-color: rgba(0, 0, 0, 0.7)">
-                    <h5>Baloon<small><a href=""></a></small></h5>
+                    <h5>Bucket<small><a href=""></a></small></h5>
 
                 </div>
             </div>
