@@ -23,7 +23,7 @@ use App\Http\Controllers\DashboardProductController;
 */
 Route::get('/', function () {
     return view('home');
-    
+
 });
 
 Route::get('/about', function(){
@@ -57,3 +57,4 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/dashboard/checkSlug', [DashboardProductController::class, 'checkSlug'])->middleware('auth');
 Route::resource('/dashboard', DashboardProductController::class)->middleware('auth');
 Route::get('/about', [AboutController::class, 'index']);
+Route::delete('/dashboard/{id}', [DashboardProductController::class, 'delete'])->name('product.delete');
