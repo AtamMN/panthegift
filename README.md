@@ -1,4 +1,4 @@
-# 🎁 Panthegift — Celebrate Every Moment
+# 🎁 Panthegift — All Special Gifts In One Place
 
 **Panthegift** is your one-stop online destination for finding thoughtful, unique, and beautifully curated gifts for all special occasions. Whether it’s a birthday, anniversary, wedding, graduation, or just a way to say "thank you", Panthegift has you covered.
 
