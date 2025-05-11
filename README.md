@@ -42,15 +42,15 @@
 panthegift/ <br/>
 ├── app/ # Application logic (controllers, models, etc.)  <br/>
 ├── bootstrap/ # App bootstrap files  <br/>
-├── config/ # Configuration files
-├── database/ # Migrations and seeders
-├── public/ # Publicly accessible files
-├── resources/
-│ ├── views/ # Blade templates
-│ └── css/js/ # Frontend assets
-├── routes/ # Web and API routes
-├── storage/ # Logs and file storage
-├── tests/ # PHPUnit tests
-├── .env # Environment variables
-├── composer.json
+├── config/ # Configuration files  <br/>
+├── database/ # Migrations and seeders  <br/>
+├── public/ # Publicly accessible files  <br/>
+├── resources/  <br/>
+│ ├── views/ # Blade templates  <br/>
+│ └── css/js/ # Frontend assets  <br/>
+├── routes/ # Web and API routes  <br/>
+├── storage/ # Logs and file storage  <br/>
+├── tests/ # PHPUnit tests  <br/>
+├── .env # Environment variables <br/>
+├── composer.json  <br/>
 └── README.md
