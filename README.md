@@ -39,9 +39,9 @@
 
 ## 📁 Project Structure
 
-panthegift/
-├── app/ # Application logic (controllers, models, etc.)
-├── bootstrap/ # App bootstrap files
+panthegift/ <br/>
+├── app/ # Application logic (controllers, models, etc.)  <br/>
+├── bootstrap/ # App bootstrap files  <br/>
 ├── config/ # Configuration files
 ├── database/ # Migrations and seeders
 ├── public/ # Publicly accessible files
