@@ -32,8 +32,6 @@
 - **Backend**: Laravel (PHP 8+)  
 - **Database**: MySQL / PostgreSQL  
 - **Authentication**: Laravel Breeze / Laravel Sanctum  
-- **Payments**: Stripe API  
-- **Hosting**: Laravel Forge / Shared or Cloud Hosting (e.g. DigitalOcean, Vercel for frontend if decoupled)
 
 ---
 
